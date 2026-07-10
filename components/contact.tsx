@@ -4,9 +4,9 @@ import { Mail, Globe, ExternalLink, ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 
 const socials = [
-  { label: 'Email', value: 'hello@parisrichards.dev', href: 'mailto:hello@parisrichards.dev', icon: Mail },
-  { label: 'GitHub', value: 'github.com/parisrichards', href: '#', icon: Globe },
-  { label: 'LinkedIn', value: 'in/parisrichards', href: '#', icon: ExternalLink },
+  { label: 'Email', value: 'paris.richards974@gmail.com', href: 'mailto:paris.richards974@gmail.com', icon: Mail },
+  { label: 'GitHub', value: 'github.com/prs-0x9', href: 'https://github.com/prs-0x9', icon: Globe },
+  { label: 'LinkedIn', value: 'in/parisrichards974', href: 'https://www.linkedin.com/in/parisrichards974/', icon: ExternalLink },
 ]
 
 export function Contact() {

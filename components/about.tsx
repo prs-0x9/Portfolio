@@ -4,7 +4,7 @@ import { Reveal, Stagger, StaggerItem } from '@/components/reveal'
 
 const stats = [
   { value: '3.57', label: 'Cum Laude GPA' },
-  { value: '4x', label: "Dean's List" },
+  { value: '3x', label: "Dean's List" },
   { value: '2', label: 'Certificates earned' },
 ]
 

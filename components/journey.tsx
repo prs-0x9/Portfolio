@@ -6,32 +6,18 @@ import { Reveal } from '@/components/reveal'
 
 const timeline = [
   {
-    period: '2025 — Present',
-    title: 'Full-Stack Software Engineer',
-    org: 'Freelance & Contract',
-    detail:
-      'Partnering with startups to design and ship production web applications end-to-end, from schema to shipped UI.',
-  },
-  {
-    period: '2023 — 2025',
-    title: 'Software Engineer',
-    org: 'Product Team',
-    detail:
-      'Built and maintained customer-facing features, improved performance, and mentored junior developers on best practices.',
-  },
-  {
-    period: '2021 — 2023',
-    title: 'Software Engineering Intern',
-    org: 'Early Career',
-    detail:
-      'Contributed to internal tools and APIs while sharpening fundamentals in testing, code review, and collaboration.',
-  },
-  {
-    period: '2019 — 2023',
+    period: '2022 — 2026',
     title: 'B.S. in Computer Science',
     org: 'Northern Illinois University',
     detail:
       'Studied algorithms, systems, and software design — graduating with a strong foundation and a passion for building.',
+  },
+    {
+    period: '2025 — 2026',
+    title: 'Web Developer',
+    org: 'Zcrafter',
+    detail:
+      'Contributed to internal tools and APIs while sharpening fundamentals in testing, code review, and collaboration.',
   },
 ]
 
