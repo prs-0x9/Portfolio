@@ -6,18 +6,18 @@ import { Reveal } from '@/components/reveal'
 
 const timeline = [
   {
+    period: '2025 — 2026',
+    title: 'Web Developer',
+    org: 'Zcrafter',
+    detail:
+      'Delivered a production-ready full-stack React/TypeScript web application from requirements gathering to launch, engineering reusable components and integrating a Google Apps Script REST API to automate lead collection and deliver measurable business value.',
+  },
+  {
     period: '2022 — 2026',
     title: 'B.S. in Computer Science',
     org: 'Northern Illinois University',
     detail:
       'Studied algorithms, systems, and software design — graduating with a strong foundation and a passion for building.',
-  },
-    {
-    period: '2025 — 2026',
-    title: 'Web Developer',
-    org: 'Zcrafter',
-    detail:
-      'Contributed to internal tools and APIs while sharpening fundamentals in testing, code review, and collaboration.',
   },
 ]
 
