@@ -32,7 +32,7 @@ export function Contact() {
 
         <Reveal delay={0.15}>
           <a
-            href="mailto:hello@parisrichards.dev"
+            href="mailto:paris.richards974@gmail.com"
             className="mt-10 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-transform duration-300 hover:scale-[1.03] active:scale-95"
           >
             Say hello
