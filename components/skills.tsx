@@ -4,20 +4,20 @@ import { Reveal, Stagger, StaggerItem } from '@/components/reveal'
 
 const groups = [
   {
-    title: 'Frontend',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    title: 'Languages',
+    skills: ['TypeScript', 'JavaScript', 'Python', 'Java', 'SQL', 'Kotlin', 'Swift', 'PHP', 'C++'],
   },
   {
-    title: 'Backend',
-    skills: ['Node.js', 'Python', 'REST & GraphQL', 'tRPC', 'WebSockets'],
+    title: 'Frameworks & UI',
+    skills: ['React', 'Next.js', 'SwiftUI', 'Tailwind CSS', 'Framer Motion'],
   },
   {
-    title: 'Data',
-    skills: ['PostgreSQL', 'Prisma', 'Redis', 'MongoDB', 'SQL'],
+    title: 'Libraries & Tools',
+    skills: ['MediaPipe', 'OpenCV', 'Pandas', 'Pytest', 'Git & GitHub', 'Docker', 'Vercel'],
   },
   {
-    title: 'Tooling',
-    skills: ['Git', 'Docker', 'Vercel', 'CI/CD', 'Jest'],
+    title: 'Core & AI',
+    skills: ['Mobile Dev (iOS/Android)', 'REST API Integration', 'Database Design', 'Claude Code', 'GitHub Copilot'],
   },
 ]
 
