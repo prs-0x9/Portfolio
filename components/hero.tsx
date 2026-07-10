@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'motion/react'
-import { ArrowDown } from 'lucide-react'
+import { ArrowDown, FileDown } from 'lucide-react'
 
 const EASE = [0.22, 1, 0.36, 1] as const
 
@@ -71,6 +71,15 @@ export function Hero() {
             className="rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-transform duration-300 hover:scale-[1.03] active:scale-95"
           >
             View my work
+          </a>
+          <a
+            href="https://www.dropbox.com/scl/fi/8sc7c29v21b8edbdfoxcx/Paris-s-Grad-CS-Resume-July26.pdf?rlkey=hbq8szrm46p5n487bv9cojj9b&st=u35rrieg&dl=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-all duration-300 hover:bg-secondary hover:text-foreground active:scale-95"
+          >
+            <FileDown className="size-4" />
+            Resume
           </a>
           <a
             href="#contact"
