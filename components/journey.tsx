@@ -17,7 +17,7 @@ const timeline = [
     title: 'B.S. in Computer Science',
     org: 'Northern Illinois University',
     detail:
-      "Graduated Cum Laude with a 3.57 GPA (4x Dean's List). Earned Academic Certificates in Mobile Programming and Digital Marketing. Coursework included Data Structures & Algorithms, Network Programming, Operating Systems, iOS & Android Programming, and AI & Data Applications in Marketing.",
+      "Graduated Cum Laude with a 3.57 GPA (3x Dean's List). Earned Academic Certificates in Mobile Programming and Digital Marketing. Coursework included Data Structures & Algorithms, Network Programming, Operating Systems, iOS & Android Programming, and AI & Data Applications in Marketing.",
   },
 ]
 
@@ -37,25 +37,25 @@ const certifications = [
   {
     name: 'Power BI Certifications',
     issuer: 'DataCamp',
-    date: 'Apr. 2026',
+    date: 'April 2026',
     skills: ['Data Visualization', 'Introduction to Power BI', 'Data Modeling', 'DAX', 'Data Analysis'],
   },
   {
     name: 'Marketing Analytics for Business',
     issuer: 'DataCamp',
-    date: 'Mar. 2026',
+    date: 'March 2026',
     skills: ['Marketing KPIs', 'Customer Segmentation', 'Python', 'Pandas'],
   },
   {
     name: 'Google Ads Certifications (Suite)',
     issuer: 'Skillshop',
-    date: 'Jan. — Mar. 2026',
+    date: 'January — March 2026',
     skills: ['Apps', 'Search', 'Measurement', 'Display'],
   },
   {
     name: 'Quantium Software Engineering',
     issuer: 'Forage (Job Simulation)',
-    date: 'Mar. 2025',
+    date: 'March 2025',
     skills: ['Python', 'Pytest', 'Pandas', 'Selenium', 'Bash', 'Data Processing'],
   },
 ]
@@ -64,7 +64,7 @@ const activities = [
   {
     name: 'University Honors Program',
     role: 'Honors Scholar',
-    date: '2022 — 2026',
+    date: 'August 2022 — May 2026',
   },
   {
     name: 'Huskie Service Scholars',
