@@ -11,7 +11,7 @@ const projects = [
     title: 'Zcrafter Web App',
     kind: 'Client work',
     description:
-      'A full-stack production web application built and deployed end-to-end. I engineered reusable components and integrated a Google Apps Script REST API for automated lead collection, then optimized for cross-device performance and monitored production analytics on Vercel.',
+      'Designed and deployed a production React and TypeScript web app. I engineered reusable UI components and integrated a Google Apps Script REST API to automate lead capture, managing the timeline from requirements gathering through deployment on Vercel.',
     image: '/projects/zcrafter.png',
     tags: ['React', 'TypeScript', 'Google Apps Script', 'Vercel'],
     year: '2025',
@@ -20,7 +20,7 @@ const projects = [
     title: 'Air Drawing Application',
     kind: 'Individual project',
     description:
-      'An AI-powered computer vision app for real-time hand-tracking drawing. I independently learned MediaPipe and OpenCV to ship a working product from scratch, with clear-canvas functionality and robust error handling across varied conditions.',
+      'Built a real-time computer vision app in Python that tracks hand movements using MediaPipe and OpenCV to let users draw directly on their screen, featuring clear-canvas logic and custom checks for robust tracking.',
     image: '/projects/airdraw.png',
     tags: ['Python', 'MediaPipe', 'OpenCV'],
     year: '2025',
@@ -29,7 +29,7 @@ const projects = [
     title: 'MusicStore',
     kind: 'Group project',
     description:
-      'A relational database inventory system built with a team. I wrote complex joins, triggers, and stored procedures in SQL, and coordinated modular development with Git and code review inside an Agile workflow.',
+      'Collaborated with a developers team to build an inventory database. I designed the relative schema and wrote joins, triggers, and stored procedures in SQL, coordinating modular tasks via Git under an Agile workflow.',
     image: '/projects/musicstore.png',
     tags: ['PHP', 'SQL', 'Git'],
     year: '2025',

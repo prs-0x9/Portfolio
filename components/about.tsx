@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Reveal, Stagger, StaggerItem } from '@/components/reveal'
 
 const stats = [
@@ -20,43 +21,52 @@ export function About() {
 
         <Reveal delay={0.05}>
           <h2 className="mt-6 max-w-4xl text-balance text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            I care about the details that make software feel effortless — clean architecture,
-            thoughtful interfaces, and performance you can feel.
+            I focus on building straightforward, performant software with a steady emphasis on clean architecture, well-designed APIs, and responsive frontends.
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-12 md:grid-cols-[1.4fr_1fr]">
+        <div className="mt-14 grid gap-12 md:grid-cols-[1fr_1.5fr] items-center">
+          {/* Headshot Card */}
           <Reveal delay={0.1}>
-            <div className="space-y-5 text-pretty text-lg leading-relaxed text-muted-foreground">
-              <p>
-                My journey grew from a curiosity for how things work into a Bachelor of Science in
-                Computer Science (Software Development) from Northern Illinois University, where I
-                graduated Cum Laude alongside certificates in Mobile Programming and Digital
-                Marketing.
-              </p>
-              <p>
-                I love building end-to-end — designing data models, integrating REST APIs, and
-                shaping the interfaces that bring them to life. I work across the stack and on
-                mobile with Java, TypeScript, React, Python, Swift, and Kotlin, always reaching for
-                the simplest solution that scales. Most recently I shipped a full production web app
-                as a web developer at Zcrafter.
-              </p>
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-border/70 bg-muted shadow-sm">
+              <Image
+                src="/paris-richards.jpg"
+                alt="Paris Richards professional headshot"
+                fill
+                sizes="(max-width: 768px) 100vw, 400px"
+                className="object-cover object-top"
+                priority
+              />
             </div>
           </Reveal>
 
-          <Stagger className="grid grid-cols-3 gap-4 md:grid-cols-1" stagger={0.1}>
-            {stats.map((stat) => (
-              <StaggerItem
-                key={stat.label}
-                className="rounded-2xl border border-border/70 bg-card p-5 md:p-6"
-              >
-                <div className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                  {stat.value}
-                </div>
-                <div className="mt-2 text-sm leading-snug text-muted-foreground">{stat.label}</div>
-              </StaggerItem>
-            ))}
-          </Stagger>
+          {/* Bio & Stats */}
+          <div className="space-y-10">
+            <Reveal delay={0.15}>
+              <div className="space-y-5 text-pretty text-lg leading-relaxed text-muted-foreground">
+                <p>
+                  I recently graduated Cum Laude from Northern Illinois University with a B.S. in Computer Science. During my time there, I focused on learning how systems function under the hood while also earning specialized academic certificates in Mobile Programming and Digital Marketing.
+                </p>
+                <p>
+                  I enjoy working across the stack — from designing relational database models to building REST APIs and writing interactive frontend components. I primary work with TypeScript, React, Java, and Python, and last year I shipped a full-stack production web application as a web developer for Zcrafter.
+                </p>
+              </div>
+            </Reveal>
+
+            <Stagger className="grid grid-cols-3 gap-4" stagger={0.1}>
+              {stats.map((stat) => (
+                <StaggerItem
+                  key={stat.label}
+                  className="rounded-2xl border border-border/70 bg-card p-5 md:p-6"
+                >
+                  <div className="text-2xl font-semibold tracking-tight sm:text-3xl">
+                    {stat.value}
+                  </div>
+                  <div className="mt-2 text-xs leading-snug text-muted-foreground">{stat.label}</div>
+                </StaggerItem>
+              ))}
+            </Stagger>
+          </div>
         </div>
       </div>
     </section>

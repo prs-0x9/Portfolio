@@ -35,7 +35,7 @@ export function Hero() {
         </motion.p>
 
         <h1 className="max-w-4xl text-balance text-5xl font-semibold leading-[0.98] tracking-tight sm:text-7xl lg:text-8xl">
-          {['Full-stack developer', 'crafting software', 'people enjoy using.'].map((line, i) => (
+          {['Full-stack software engineer', 'building for web', 'and mobile.'].map((line, i) => (
             <span key={line} className="block overflow-hidden">
               <motion.span
                 className="block"
@@ -55,9 +55,9 @@ export function Hero() {
           transition={{ duration: 0.8, ease: EASE, delay: 0.6 }}
           className="mt-8 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground"
         >
-          I&apos;m Paris Richards, a Chicago-based full-stack developer and Cum Laude computer
-          science graduate from Northern Illinois University. I build fast, reliable products across
-          web and mobile — from the database to the pixel.
+          I&apos;m Paris Richards, a software engineer based in Chicago and a computer science graduate
+          from Northern Illinois University. I focused on full-stack web development and mobile applications,
+          handling everything from database design to API connections and frontend logic.
         </motion.p>
 
         <motion.div
