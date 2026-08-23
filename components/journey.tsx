@@ -6,6 +6,13 @@ import { Reveal } from '@/components/reveal'
 
 const timeline = [
   {
+    period: '2025 — Present',
+    title: 'Seasonal Team Associate',
+    org: 'Walmart',
+    detail:
+      "Delivered consistent customer service and supported daily team operations during a high-volume holiday season. Balanced multiple concurrent priorities in a fast-paced environment, applying strong time management and multitasking skills.",
+  },  
+  {
     period: '2025 — 2026',
     title: 'Web Developer',
     org: 'Zcrafter',
@@ -54,7 +61,7 @@ const certifications = [
   },
   {
     name: 'Introduction to APIs in Google',
-    issuer: 'Coursera',
+    issuer: 'Google Cloud',
     date: 'August 2026',
     skills: ['Restful API', 'Google Cloud Platform', 'Network Protocols', 'Cloud API', 'JSON', 'API Design', 'Web Services', 'Authentications'],
   },
@@ -63,6 +70,12 @@ const certifications = [
     issuer: 'Forage (Job Simulation)',
     date: 'March 2025',
     skills: ['Python', 'Pytest', 'Pandas', 'Selenium', 'Bash', 'Data Processing'],
+  },
+  {
+    name: 'Walmart Software Engineering',
+    issuer: 'Forage (Job Simulation)',
+    date: 'August 2026',
+    skills: ['Advanced Data Structures', 'Software Architecture', 'Relational Database Design', 'Data Munging', 'Java', 'Python', 'SQL', 'UML Modeling'],
   },
 ]
 
