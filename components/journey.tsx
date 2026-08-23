@@ -53,6 +53,12 @@ const certifications = [
     skills: ['Apps', 'Search', 'Measurement', 'Display'],
   },
   {
+    name: 'Introduction to APIs in Google',
+    issuer: 'Coursera',
+    date: 'August 2026',
+    skills: ['Restful API', 'Google Cloud Platform', 'Network Protocols', 'Cloud API', 'JSON', 'API Design', 'Web Services', 'Authentications'],
+  },
+  {
     name: 'Quantium Software Engineering',
     issuer: 'Forage (Job Simulation)',
     date: 'March 2025',
