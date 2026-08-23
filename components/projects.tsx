@@ -11,7 +11,7 @@ const projects = [
     title: 'Zcrafter Web App',
     kind: 'Client work',
     description:
-      'Designed and deployed a production React and TypeScript web app. I engineered reusable UI components and integrated a Google Apps Script REST API to automate lead capture, managing the timeline from requirements gathering through deployment on Vercel.',
+      "Built the initial web presence for an early-stage startup, working as one of the web developers on a small founding team. I put together the beta site in React and TypeScript and wired up a Google Apps Script API to capture leads. As the product's direction shifted, my role shifted with it, but I'm proud of what shipped in that first stretch.",
     image: '/projects/zcrafter.png',
     tags: ['React', 'TypeScript', 'Google Apps Script', 'Vercel'],
     year: '2025',

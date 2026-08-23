@@ -10,7 +10,7 @@ const timeline = [
     title: 'Web Developer',
     org: 'Zcrafter',
     detail:
-      'Engineered reusable components, designed and deployed a full-stack production React + TypeScript web application, and integrated a Google Apps Script REST API for automated lead collection. Optimized for cross-device performance and monitored production analytics on Vercel.',
+      "Joined an early-stage startup as a web developer, building the beta site in React and TypeScript and integrating a REST API for lead capture. Worked closely with the founding team on requirements and direction during the product's early phase.",
   },
   {
     period: '2022 — 2026',
