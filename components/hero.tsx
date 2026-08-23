@@ -73,7 +73,7 @@ export function Hero() {
             View my work
           </a>
           <a
-            href="https://www.dropbox.com/scl/fi/8sc7c29v21b8edbdfoxcx/Paris-s-Grad-CS-Resume-July26.pdf?rlkey=hbq8szrm46p5n487bv9cojj9b&st=u35rrieg&dl=1"
+            href="https://www.dropbox.com/scl/fi/pzmuowvor2708w1i4ezjm/Paris-Richards-Resume.pdf?rlkey=qsnl4pce9i1mn7sldgheuteqi&st=mrky2tp2&dl=1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-all duration-300 hover:bg-secondary hover:text-foreground active:scale-95"
