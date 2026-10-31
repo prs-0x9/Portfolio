@@ -4,23 +4,48 @@ import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'motion/react'
 import { Reveal } from '@/components/reveal'
 
-const timeline = [
+type Role = {
+  period: string
+  title: string
+  detail: string
+}
+
+type TimelineItem = {
+  period: string
+  org: string
+  title?: string
+  detail?: string
+  roles?: Role[]
+}
+
+const timeline: TimelineItem[] = [
   {
-    period: '2025 — Present',
-    title: 'Seasonal Team Associate',
+    period: 'August 2025 — Present',
     org: 'Walmart',
-    detail:
-      "Delivered consistent customer service and supported daily team operations during a high-volume holiday season. Balanced multiple concurrent priorities in a fast-paced environment, applying strong time management and multitasking skills.",
-  },  
+    roles: [
+      {
+        period: 'October 2026 — Present',
+        title: 'Auto Care Center Service Writer/Greeter',
+        detail:
+          "Create service orders and manage walk-in and online appointments using scheduling software. Check tire inventory, stage customer orders, and document vehicle issues with tablets and diagnostic tools. Explain findings in plain language, resolve customer concerns, and escalate issues when needed.",
+      },
+      {
+        period: 'August 2025 — October 2026',
+        title: 'Seasonal Team Associate',
+        detail:
+          "Delivered consistent customer service and supported daily team operations during a high-volume holiday season. Balanced multiple concurrent priorities in a fast-paced environment, applying strong time management and multitasking skills.",
+      },
+    ],
+  },
   {
-    period: '2025 — 2026',
+    period: 'May 2025 — June 2026',
     title: 'Web Developer',
     org: 'Zcrafter',
     detail:
       "Joined an early-stage startup as a web developer, building the beta site in React and TypeScript and integrating a REST API for lead capture. Worked closely with the founding team on requirements and direction during the product's early phase.",
   },
   {
-    period: '2022 — 2026',
+    period: 'August 2022 — May 2026',
     title: 'B.S. in Computer Science',
     org: 'Northern Illinois University',
     detail:
@@ -130,17 +155,41 @@ export function Journey() {
 
           <div className="space-y-14">
             {timeline.map((item, i) => (
-              <Reveal key={item.title} delay={i * 0.05} y={30}>
+              <Reveal key={item.title ?? item.org} delay={i * 0.05} y={30}>
                 <div className="relative">
                   <span className="absolute -left-8 top-1.5 size-2.5 rounded-full border-2 border-background bg-accent sm:-left-10" />
                   <div className="text-sm font-medium text-muted-foreground">{item.period}</div>
-                  <h3 className="mt-2 text-xl font-semibold tracking-tight sm:text-2xl">
-                    {item.title}
-                  </h3>
-                  <div className="mt-1 text-[15px] font-medium text-accent">{item.org}</div>
-                  <p className="mt-3 max-w-2xl text-pretty leading-relaxed text-muted-foreground">
-                    {item.detail}
-                  </p>
+                  {item.roles ? (
+                    <>
+                      <h3 className="mt-2 text-xl font-semibold tracking-tight text-accent sm:text-2xl">
+                        {item.org}
+                      </h3>
+                      <div className="mt-5 space-y-8 border-l border-border/70 pl-5">
+                        {item.roles.map((role) => (
+                          <div key={role.title} className="relative">
+                            <span className="absolute -left-[23.5px] top-2 size-1.5 rounded-full bg-muted-foreground/60" />
+                            <h4 className="text-lg font-semibold tracking-tight">{role.title}</h4>
+                            <div className="mt-0.5 text-sm font-medium text-muted-foreground">
+                              {role.period}
+                            </div>
+                            <p className="mt-2 max-w-2xl text-pretty leading-relaxed text-muted-foreground">
+                              {role.detail}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="mt-2 text-xl font-semibold tracking-tight text-accent sm:text-2xl">
+                        {item.org}
+                      </h3>
+                      <h4 className="mt-3 text-lg font-semibold tracking-tight">{item.title}</h4>
+                      <p className="mt-2 max-w-2xl text-pretty leading-relaxed text-muted-foreground">
+                        {item.detail}
+                      </p>
+                    </>
+                  )}
                 </div>
               </Reveal>
             ))}
